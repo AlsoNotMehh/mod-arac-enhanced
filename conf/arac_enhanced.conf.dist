@@ -1,0 +1,88 @@
+#
+# ARAC Enhanced (All Races All Classes) Configuration
+#
+
+[worldserver]
+
+#
+#    ARAC.Enable
+#        Description: Enable the ARAC Enhanced module.
+#        Default:     1 (Enabled)
+#
+
+ARAC.Enable = 1
+
+#
+#    ARAC.AllowAll
+#        Description: If set to 1, enables all 100 possible combinations at once.
+#                     If set to 0, uses the curated per-combination settings below.
+#        Default:     0
+#
+
+ARAC.AllowAll = 0
+
+#
+# ==============================================================================
+#  CURATED LORE-EXPANSION DEFAULTS (Enabled by default)
+# ==============================================================================
+#  These combinations align with Warcraft lore and Cataclysm class progressions.
+#  You can freely enable (1) or disable (0) any combination below.
+# ==============================================================================
+
+# --- Humano (Human) ---
+ARAC.Human.Hunter = 1
+ARAC.Human.Shaman = 0
+ARAC.Human.Druid  = 0
+
+# --- Enano (Dwarf) ---
+ARAC.Dwarf.Shaman  = 1
+ARAC.Dwarf.Mage    = 1
+ARAC.Dwarf.Warlock = 1
+ARAC.Dwarf.Druid   = 0
+
+# --- Elfo de la Noche (Night Elf) ---
+ARAC.NightElf.Mage    = 1
+ARAC.NightElf.Warlock = 1
+ARAC.NightElf.Paladin = 0
+ARAC.NightElf.Shaman  = 0
+
+# --- Gnomo (Gnome) ---
+ARAC.Gnome.Priest  = 1
+ARAC.Gnome.Hunter  = 1
+ARAC.Gnome.Paladin = 0
+ARAC.Gnome.Shaman  = 0
+ARAC.Gnome.Druid   = 0
+
+# --- Draenei ---
+ARAC.Draenei.Warlock = 1
+ARAC.Draenei.Rogue   = 0
+ARAC.Draenei.Druid   = 0
+
+# --- Orco (Orc) ---
+ARAC.Orc.Mage    = 1
+ARAC.Orc.Priest  = 0
+ARAC.Orc.Paladin = 0
+ARAC.Orc.Druid   = 0
+
+# --- No-muerto (Undead) ---
+ARAC.Undead.Hunter  = 1
+ARAC.Undead.Paladin = 1
+ARAC.Undead.Shaman  = 0
+ARAC.Undead.Druid   = 0
+
+# --- Tauren ---
+ARAC.Tauren.Paladin = 1
+ARAC.Tauren.Priest  = 1
+ARAC.Tauren.Mage    = 0
+ARAC.Tauren.Warlock = 0
+ARAC.Tauren.Rogue   = 0
+
+# --- Troll ---
+ARAC.Troll.Warlock = 1
+ARAC.Troll.Druid   = 1
+ARAC.Troll.Paladin = 0
+
+# --- Elfo de Sangre (Blood Elf) ---
+ARAC.BloodElf.Warrior = 1
+ARAC.BloodElf.Shaman  = 0
+ARAC.BloodElf.Druid   = 0
